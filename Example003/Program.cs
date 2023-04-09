@@ -30,10 +30,8 @@ if (day_n == 7)
 {
    Console.WriteLine("Воскресенье"); 
 } 
-if (day_n >7)
-{
-   Console.WriteLine("Такого дня недели нет"); 
-} 
+else Console.WriteLine("Такого дня недели нет"); 
+
 
 //Сокращенно это можно записать еще так:
 //Console.WriteLine("Введите день недели(число) ");
